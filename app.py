@@ -12,8 +12,8 @@ from PIL import Image
 from groq import Groq
 
 APP_NAME = "StudyMate AI"
-TEXT_MODEL_DEFAULT = "llama-3.3-70b-versatile"
-VISION_MODEL_DEFAULT = "meta-llama/llama-4-scout-17b-16e-instruct"
+TEXT_MODEL_DEFAULT = "openai/gpt-oss-120b"
+VISION_MODEL_DEFAULT = "openai/gpt-oss-safeguard-20b"
 
 st.set_page_config(page_title=APP_NAME, page_icon="📚", layout="wide")
 
